@@ -6,11 +6,10 @@
 
 .container {
   width: 920px;
-  height: 745px;
+  height: 760px;
   border: 5px solid Darkblue;
+  margin: auto;
 }
-
-
 .tablet {
   display: inline-block;
   position: relative;
@@ -21,14 +20,12 @@
   display: inline-block;
   position: relative;
   border: 2px solid salmon;
-  margin-top: 2px;
 }
 
 .cuffia {
   display: inline-block;
   position: relative;
   border: 2px solid salmon;
-  margin-top: 2px;
 }
 
 .sconto-30{
@@ -44,6 +41,7 @@
   top: 0;
   right: 0;
   background-color: red;
+  margin-top: 2px;
 }
 
 .cuore{
@@ -63,7 +61,7 @@
   display:block;
 }
 
-.cuffia:hover .cuore .cuore{
+.cuffia:hover .cuore{
   color: red;
   display:block;
 }
